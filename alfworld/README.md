@@ -5,10 +5,11 @@ cd ./alfworld
 pip install -r requirements.txt
 ```
 
-2. Prepare OpenAI API key and put the key in ```OpenAI_api_key.txt```
+2. According to the [instruction](https://github.com/alfworld/alfworld?tab=readme-ov-file#quickstart), download the data and set environment variables 
 
+3. Prepare OpenAI API key and put the key in ```OpenAI_api_key.txt```
 
-3. Run RAP on ALFWorld
+4. Run RAP on ALFWorld
 ```bash
 python main.py
 ```
