@@ -1,0 +1,9 @@
+beautifulsoup4==4.12.3
+numpy==1.26.4
+openai==1.30.5
+PyYAML==6.0.1
+requests==2.32.3
+sentence_transformers==2.7.0
+torch==2.2.2+cu121
+tqdm==4.65.0
+transformers==4.40.1
