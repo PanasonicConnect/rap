@@ -19,11 +19,11 @@ os.makedirs(args.output, exist_ok=True)
 with open('./configs/base_config.yaml') as reader:
     config = yaml.safe_load(reader)
 
-if 'Llama-2' in args.model or any(map(args.model.__contains__, AutoModelForCausalLM._model_mapping._model_mapping)):
-    # llama2
-    from transformers import AutoModelForCausalLM
-    from transformers import AutoTokenizer
+# llama2
+from transformers import AutoModelForCausalLM
+from transformers import AutoTokenizer
 
+if 'Llama-2' in args.model or any(map(args.model.__contains__, AutoModelForCausalLM._model_mapping._model_mapping)):
     model_name = args.model
     model = AutoModelForCausalLM.from_pretrained(
         model_name, load_in_4bit=True, device_map="auto"
