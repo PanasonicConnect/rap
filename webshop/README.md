@@ -9,6 +9,25 @@ pip install -r requirements.txt
 
 * Note: host webserver and all data on localhost as provided web-link (http://3.83.245.205:3000) by Webshop is not valid.
 
+<br>
+
+> Note: Alternative setup procedure:
+> * Install full list of requirements, merged with WebShop
+>
+> ```bash
+> pip install -r merged_requirements.txt
+> ```
+>
+> * Execute SpaCy download
+> ```bash
+> python -m spacy download en_core_web_lg
+> ```
+>
+> * Clone the WebShop repository from [here](https://github.com/princeton-nlp/WebShop)
+> * Download all necessary data specified in WebShop 
+
+<br>
+
 3. Prepare OpenAI API key and put the key in ```OpenAI_api_key.txt```
 
 4. Run (in a separate terminal) the webserver. (Note: Stop/terminate and restart the webserver before each experiment.)
