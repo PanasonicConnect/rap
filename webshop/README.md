@@ -1,7 +1,6 @@
 # Get Started
 1. Move webshop directory and install requirements
 ```bash
-cd ./webshop
 pip install -r requirements.txt
 ```
 
@@ -11,7 +10,7 @@ pip install -r requirements.txt
 
 <br>
 
-> Note: Alternative setup procedure:
+> Note: Alternative setup procedure for steps 1 and 2:
 > * Install full list of requirements, merged with WebShop
 >
 > ```bash
@@ -28,13 +27,13 @@ pip install -r requirements.txt
 
 <br>
 
-3. Prepare OpenAI API key and put the key in ```OpenAI_api_key.txt```
-
-4. Run (in a separate terminal) the webserver. (Note: Stop/terminate and restart the webserver before each experiment.)
+3. Run (in a **separate** terminal) the webserver. (Note: Stop/terminate and restart the webserver before each experiment.)
 ```bash
 cd <path to webshop server directory>
 ./run_dev.sh
 ```
+
+4. Prepare OpenAI API key and put the key in ```OpenAI_api_key.txt```
 
 5. Run RAP on Webshop
 ```bash
