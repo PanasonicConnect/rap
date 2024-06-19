@@ -1,0 +1,28 @@
+think: First I need to find a spraybottle. A spraybottle is more likely to appear in cabinet (1-4), countertop (1), toilet (1), sinkbasin (1-2), garbagecan (1). I can check one by one, starting with cabinet 1.
+> search: spraybottle
+think: Now I put the first creditcard in dresser. Next, I need to find the second creditcard. I can directly go to countertop 1.
+> search: creditcard
+think: Now I take a pen (2). Next, I need to find a desklamp. A desklamp is more likely to appear in dresser (1), shelf (1-9), bed (1), garbagecan (1), drawer (1-10). I can check one by one, starting with dresser 1.
+> search: desklamp
+think: Now I find a lettuce (1). Next, I need to take it.
+> action: take
+think: Now I find a pan (1). Next, I need to take it.
+> action: take
+think: Now I find the second saltshaker (2). Next, I need to take it.
+> action: take
+think: Now I heat an egg (2). Next, I need to put it in/on diningtable 1.
+> action: put
+think: Now I take a spraybottle (2). Next, I need to put it in/on toilet 1.
+> action: put
+think: Now I take an apple (1). Next, I need to go to a microwave (1) and heat it.
+> action: heat
+think: Now I take a bread (1). Next, I need to go to a microwave (1) and heat it.
+> action: heat
+think: Now I take a mug (3). Next, I need to go to a fridge (1) and cool it.
+> action: cool
+think: Now I take a potato (2). Next, I need to go to a fridge (1) and cool it.
+> action: cool
+think: Now I find a desklamp (1). Next, I need to use it.
+> action: use
+think: Now I find a desklamp (3). Next, I need to use it.
+> action: use
