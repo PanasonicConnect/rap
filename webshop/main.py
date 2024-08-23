@@ -338,7 +338,7 @@ def generate_embeddings(memory):
            continue
         # extract embeddings
         embeddings[key] = model_embedding.encode(retrieve_info)
-    return embeddings
+    return memory, embeddings
 
 
 def generate_examples(info, actions, memory, embeddings, reasoning='', k=3, act_len=0, use_act_obs=False):
@@ -558,7 +558,7 @@ for trial in range(args.num_trials):
     sr_games = []
     if trial != 0:
         memory = current_memory[:]
-        embeddings = generate_embeddings(memory)
+        memory, embeddings = generate_embeddings(memory)
     current_memory = []
     for i in range(start, start+n):
         print('-----------------')
